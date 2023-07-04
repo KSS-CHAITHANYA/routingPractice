@@ -1,0 +1,35 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+.wave-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wave {
+  height: 30px;
+  margin-right: 5px;
+}
+
+.wave-heading {
+  color: #12022f;
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+.navigate-items {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  margin-right: 20px;
+  color: #12022f;
+  font-family: Roboto;
+  font-weight: bold;
+  cursor: pointer;
+}
